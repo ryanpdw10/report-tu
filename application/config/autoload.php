@@ -2,6 +2,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
+
+//   Iriansyah Ahmad M 
+//   ryanpdw10@gmail.com
+//   https://ryanpdw10.github.io
+
 | -------------------------------------------------------------------
 | AUTO-LOADER
 | -------------------------------------------------------------------
@@ -58,7 +63,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database', 'fungsi', 'session', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +94,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+$autoload['helper'] = array('url', 'file', 'login_helper', 'form');
 
 /*
 | -------------------------------------------------------------------
